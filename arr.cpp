@@ -40,9 +40,9 @@ void main()
 
 	for (int i = 0; i < size; i++)
 	{
-		cout << "¬ведите число: ";
+		cout << "¬ведите число " << i+1 << ":";
 		cin >> arr2[i];
-		if (arr2[i] < 0 && arr2[i] > 10)
+		if (arr2[i] < 0 || arr2[i] > 10)
 		{
 			do
 			{
