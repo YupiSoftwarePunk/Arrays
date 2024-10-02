@@ -30,13 +30,12 @@ void main()
 		}
 	}*/
 
-	int num1, num2, num3, num4, num5, num6, num7, num8, num9, num10;
 	const int size = 10;
 	int arr1[size], arr2[size];
 
 	for (int i = 0; i < size; i++)
 	{
-		arr1[i] = rand() % 10;
+		arr1[i] = rand() % 11;
 	}
 
 	for (int i = 0; i < size; i++)
