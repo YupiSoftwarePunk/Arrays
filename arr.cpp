@@ -42,22 +42,13 @@ void main()
 	{
 		cout << "¬ведите число: ";
 		cin >> arr2[i];
-		if (arr2[i] < 0)
+		if (arr2[i] < 0 && arr2[i] > 10)
 		{
 			do
 			{
 				cout << "¬ведите числo заново: ";
 				cin >> arr2[i];
-			} while (arr2[i] < 0);
-		}
-
-		else if (arr2[i] > 10)
-		{
-			do
-			{
-				cout << "¬ведите числo заново: ";
-				cin >> arr2[i];
-			} while (arr2[i] > 10);
+			} while (arr2[i] < 0 && arr2[i] > 10);
 		}
 		if (arr1[i] == arr2[i])
 		{
