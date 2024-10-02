@@ -49,7 +49,7 @@ void main()
 				cout << "¬ведите числo заново: ";
 				cin >> arr2[i];
 			} 
-			while (arr2[i] < 0 && arr2[i] > 10);
+			while (arr2[i] < 0 || arr2[i] > 10);
 		}
 
 		if (arr1[i] == arr2[i])
