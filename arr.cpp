@@ -48,8 +48,10 @@ void main()
 			{
 				cout << "Введите числo заново: ";
 				cin >> arr2[i];
-			} while (arr2[i] < 0 && arr2[i] > 10);
+			} 
+			while (arr2[i] < 0 && arr2[i] > 10);
 		}
+
 		if (arr1[i] == arr2[i])
 		{
 			cout << "Найдено совпадение: " << arr1[i] << " and " << arr2[i] << endl;
